@@ -1,6 +1,0 @@
-node_modules
-dist
-src5
-.DS_Store
-.idea
-*zip
