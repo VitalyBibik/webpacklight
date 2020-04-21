@@ -1,2 +1,0 @@
-# webpacklight
-sborkaLight
