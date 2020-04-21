@@ -28,24 +28,6 @@ class Card {
 
 
 
-  /* author: Если бы я знал регулярные выражения, то использовал бы их, но это следующий блок тем :(
- */
-
-  // По этому поводу простой совет -- replace принимает не только регулярку, но и просто символы
-  // Требуется заэкранировать пять опасных символов: ' " & < >
-  // Замените их на аналоги по коду HTML  -- коды тут https://html5book.ru/specsimvoly-html/
-  // Это уже обезопасит ввод на данном этапе.
-  // Делаете массив объектов -- {символ: код}, пробегаетесь по массиву циклом делая replace символа на код
-  /*sanitizeHTML(str) {
-    // Достаточно расточительная безопасность,
-    // Лучше через replace заменить опасные символы на безопасные
-    // Вы же объект DOM каждый раз создаете, что ресурсоемко так или иначе
-    // Исправьте пожалуйста
-    // Хотя сам факт наличия проверки -- круто!
-    let temp = document.createElement('div');
-    temp.textContent = str;
-    return temp.innerHTML;
-  } */
   sanitizeHTMLUpdate(str) {
     let temp = str.replace(/[.*+?^${}()<>|[\]\\]/g, '\\$&');
     return temp;
@@ -75,20 +57,7 @@ class Card {
     }
 
   }
-/*
-  addIconCard(element){
 
-    if (element.includes('aae80730aff6f85bc5513f38')){
-      console.log('good');
-      return element
-    } else {
-      console.log('popados');
-      element = ''
-      return element;
-    }
-
-  }
-*/
 
   // Лайки
   likeHandler = event => {
@@ -127,7 +96,7 @@ class Card {
         card.remove();
       }
     }
-  } // skobka methid
+  }
 
 
 
