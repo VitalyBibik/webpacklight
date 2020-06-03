@@ -18,5 +18,4 @@ CSS (flex, grid);
 BEM;
 
 
-## Текущая версия: v0.0.6 
 ## Link https://VitalyBibik.github.io/webpacklight/
