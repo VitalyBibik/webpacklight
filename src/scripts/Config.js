@@ -1,4 +1,4 @@
-const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk' : 'https://praktikum.tk';
+const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk' : 'https://nomoreparties.co';
 
 const obj = {
     baseUrl: `${serverUrl}/cohort9`,
