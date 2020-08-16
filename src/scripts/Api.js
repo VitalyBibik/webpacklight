@@ -1,7 +1,4 @@
-// "aae80730aff6f85bc5513f38"
-// '41b0685a-8626-46fa-882b-88da0ea48249'
-// ${this.getIconUserCard(cardID)}
-debugger;
+
     class Api {
     constructor(options) {
         // тело конструктора
