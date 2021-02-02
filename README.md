@@ -1,5 +1,3 @@
-# webpacklight
-sborkaLight
 # "Mesto"
 ### Функционал
 размещать картинки
